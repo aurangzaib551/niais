@@ -1,0 +1,13 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+// Variables
+@import "./Variables";
+
+// Not Found CSS
+@import "./NotFound";
+
+// Top Header CSS
+@import "./TopHeader";
