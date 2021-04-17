@@ -1,0 +1,49 @@
+header {
+  nav {
+    .navigation {
+      .link {
+        text-decoration: none;
+        color: black;
+        padding: 10px 15px;
+        font-weight: bold;
+        border-radius: 0.3rem;
+        display: block;
+        cursor: pointer;
+        position: relative;
+
+        &:hover {
+          background-color: $primary;
+          color: white;
+
+          .sub-nav {
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+
+      .sub-nav {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 43px;
+        background-color: white;
+        border-radius: 0.3rem;
+
+        .sub-nav-link {
+          text-decoration: none;
+          color: black;
+          padding: 10px 15px;
+          display: block;
+
+          &:hover {
+            background-color: $primary;
+            color: white;
+            border-radius: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
