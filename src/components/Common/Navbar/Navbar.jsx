@@ -62,7 +62,7 @@ const Navbar = () => {
             </li>
             <li className="link">
               About Us <i className="fas fa-angle-down"></i>
-              <ul className="list-unstyled sub-nav border text-nowrap">
+              <ul className="list-unstyled sub-nav border text-nowrap sub-nav-about">
                 <li>
                   <Link to="/" className="sub-nav-link">
                     Governor Punjab Message
